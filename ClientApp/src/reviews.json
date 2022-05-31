@@ -1,0 +1,19 @@
+{
+  "customers" : [
+    {
+      "name": "Roberto",
+      "review": "Adorei, fiquei bem feliz com a entrega. Superou as minhas expectativas. Rápido e de qualidade!",
+      "url" : "img/encomenda2.jpg" 
+    },
+    {
+      "name": "Julia",
+      "review": "Realmente um serviço de excelência. O produto veio no prazo estipulado, bem embalado.",
+      "url" : "img/encomenda3.jpg"
+    },
+    {
+      "name": "Paulo",
+      "review": "Finalmente uma entrega no mesmo dia, ajuda bastante com minha ansiedade! Agora não preciso esperar semanas para ler meus livros... Nota 10!",
+      "url" : "img/encomenda4.jpg"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "fleet" : [
+    {
+      "title": "Boeing 737 400F",
+      "description": "Para os voos cargueiros domésticos, operamos com uma frota de 15 Boeing 737-800F, capaz de carregar até aproximadamente 24 toneladas. São os responsáveis pelas entregas no mesmo dia",
+      "url" : "img/airplane2.jpg" 
+    },
+    {
+      "title": "Boeing 767-300F",
+      "description": "E para as rotas mais longas, ou seja, de maior distância e duração, utilizamos os Boeing 767-300F, com este sendo capaz de carregar até aproximadamente 58 toneladas de carga, permitindo com que seja concretizado o nosso plano de expansão internacional.",
+      "url" : "img/airplane3.jpg"
+    },
+    {
+      "title": "Frota Terrestre",
+      "description": "Já quando se trata de nossa frota terrestre, temos uma frota completa com 3.000 caminhões baú com capacidade próxima a 16 toneladas, 6.000 furgões com capacidade de 1.2 toneladas e mais de 20.000 motocicletas.",
+      "url" : "img/truck.jpg"
+    }
+  ]
+}
