@@ -1,0 +1,90 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>@ViewData["Title"]</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body>
+  <header class="flex justify-between px-8 py-3 bg-blue-500">
+    <h1 class="text-white text-2xl font-bold italic">NR Log</h1>
+    <div class="flex items-center">
+      <ul class="hidden sm:flex gap-4">
+        <li class="hover:scale-105 transition-all">
+          <a href="#" class="text-white text-lg">Enviar remessa</a>
+        </li>
+        <li class="hover:scale-105 transition-all">
+          <a href="#" class="text-white text-lg">Sobre</a>
+        </li>
+        <li class="hover:scale-105 transition-all">
+          <a href="#" class="text-white text-lg">Registre-se</a>
+        </li>
+        <li class="hover:scale-105 transition-all">
+          <a href="#" class="text-white text-lg">Login</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main role="main">
+    @RenderBody()
+  </main>
+
+  <!-- Footer -->
+  <footer
+    class="flex gap-4 flex-col md:flex-row md:items-stretch justify-between px-10 lg:px-40 xl:px-60 py-4 bg-gray-700"
+  >
+    <ul class="text-white flex flex-col gap-2 text-xl">
+      <li class="pb-2 text-2xl">Informações</li>
+      <li><a class="text-white hover:underline" href="#">Rastreio</a></li>
+      <li><a class="text-white hover:underline" href="#">Enviar remessa</a></li>
+      <li><a class="text-white hover:underline" href="#">Serviços</a></li>
+      <li><a class="text-white hover:underline" href="#">Termos de uso</a></li>
+      <li>
+        <a class="text-white hover:underline" href="#"
+          >Política de privacidade</a
+        >
+      </li>
+      <li><a class="text-white hover:underline" href="#">FAQ</a></li>
+    </ul>
+    <ul class="text-white flex flex-col gap-2 text-xl">
+      <li class="pb-2 text-2xl">Nos siga</li>
+      <li><a class="text-white hover:underline" href="#">Twitter</a></li>
+      <li><a class="text-white hover:underline" href="#">Facebook</a></li>
+      <li><a class="text-white hover:underline" href="#">Instagram</a></li>
+      <li><a class="text-white hover:underline" href="#">LinkedIn</a></li>
+    </ul>
+    <form class="flex flex-col gap-3 text-white" action="">
+      <h1 class="text-2xl">Newsletter</h1>
+      <input
+        class="px-4 py-1 rounded-sm"
+        type="text"
+        placeholder="Digite seu nome"
+      />
+      <input
+        class="px-4 py-1 rounded-sm"
+        type="text"
+        placeholder="Digite seu email"
+      />
+      <button
+        class="px-3 self-start py-1 rounded-sm bg-rose-600 hover:scale-105 transition-all"
+        type="submit"
+      >
+        Inscrever-se
+      </button>
+    </form>
+  </footer>
+
+  <!-- Footer bottom -->
+  <div class="bg-blue-500 text-center p-4">
+    <h1 class="text-xl text-white">&copy; 2022 <span className="italic font-bold">NR Log</span></h1>
+  </div>
+
+  @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>
