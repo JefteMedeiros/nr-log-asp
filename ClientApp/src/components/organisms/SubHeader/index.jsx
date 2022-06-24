@@ -1,6 +1,6 @@
 import React from 'react'
-import SubHeaderDescription from '../../molecules/SubHeaderDescription';
-import SubHeaderTitle from '../../molecules/SubHeaderTitle';
+import SubHeaderDescription from '../../atoms/SubHeaderDescription';
+import SubHeaderTitle from '../../atoms/SubHeaderTitle';
 
 export default function SubHeader() {
   return (

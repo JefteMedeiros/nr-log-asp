@@ -4,7 +4,7 @@ export default function InfoList() {
   return (
     <div>
       <ul className="text-white flex flex-col gap-2 text-xl">
-        <li className="pb-2">Informações</li>
+        <li className="pb-2 text-2xl">Informações</li>
         <li><a className="text-white hover:underline" href="#">Rastreio</a></li>
         <li><a className="text-white hover:underline" href="#">Enviar remessa</a></li>
         <li><a className="text-white hover:underline" href="#">Serviços</a></li>

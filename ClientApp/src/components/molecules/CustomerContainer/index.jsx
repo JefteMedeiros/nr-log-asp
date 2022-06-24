@@ -5,8 +5,8 @@ import CustomerImg from '../../atoms/CustomerImg'
 
 export default function FleetContainer(props) {
   return (
-    <div className="flex py-6 justify-center ">
-      <div className="w-[400px] rounded-tl-xl p-6 rounded-bl-xl bg-indigo-900">
+    <div className="flex flex-col lg:flex-row py-6 px-8 justify-center ">
+      <div className="max-w-[600px] lg:max-w-[400px] lg:rounded-tr-none rounded-tl-xl rounded-tr-xl rounded-bl-none lg:rounded-bl-xl p-6 bg-indigo-900">
         <CustomerName name={props.name} />
         <CustomerReview review={props.review}/>
       </div>
