@@ -10,24 +10,54 @@
 </head>
 
 <body>
-  <header class="flex justify-between px-8 py-3 bg-blue-500">
-    <h1 class="text-white text-2xl font-bold italic">NR Log</h1>
-    <div class="flex items-center">
-      <ul class="hidden sm:flex gap-4">
+
+  <!-- Header -->
+  <header class="bg-blue-500 flex flex-col">
+
+    <div class="flex justify-between px-8 py-3">
+      <a asp-action="Index" asp-controller="Home" class="text-white text-2xl font-bold italic">NR Log</a>
+      <div class="flex items-center">
+        <ul class="hidden sm:flex gap-4">
+          <li class="hover:scale-105 transition-all">
+            <a asp-action="Index" asp-controller="Home" class="text-white text-lg">Início</a>
+          </li>
+          <li class="hover:scale-105 transition-all">
+            <a asp-action="Index" asp-controller="" class="text-white text-lg">Enviar remessa</a>
+          </li>
+          <li class="hover:scale-105 transition-all">
+            <a asp-action="Index" asp-controller="" class="text-white text-lg">Sobre</a>
+          </li>
+          <li class="hover:scale-105 transition-all">
+            <a asp-action="Index" asp-controller="Register" class="text-white text-lg">Registre-se</a>
+          </li>
+          <li class="hover:scale-105 transition-all">
+            <a asp-action="Index" asp-controller="Login" class="text-white text-lg">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Header Mobile -->
+    <div class="sm:hidden border-t-2 border-gray-100 w-full">
+      <ul class="flex wrap gap-4 justify-center">
         <li class="hover:scale-105 transition-all">
-          <a href="#" class="text-white text-lg">Enviar remessa</a>
+            <a asp-action="Index" asp-controller="Home" class="text-white text-lg">Início</a>
         </li>
         <li class="hover:scale-105 transition-all">
-          <a href="#" class="text-white text-lg">Sobre</a>
+          <a asp-action="Index" asp-controller="" class="text-white text-md">Enviar remessa</a>
         </li>
         <li class="hover:scale-105 transition-all">
-          <a href="#" class="text-white text-lg">Registre-se</a>
+          <a asp-action="Index" asp-controller="" class="text-white text-md">Sobre</a>
         </li>
         <li class="hover:scale-105 transition-all">
-          <a href="#" class="text-white text-lg">Login</a>
+          <a asp-action="Index" asp-controller="Home" class="text-white text-md">Registre-se</a>
+        </li>
+        <li class="hover:scale-105 transition-all">
+          <a asp-action="Index" asp-controller="Login" class="text-white text-md">Login</a>
         </li>
       </ul>
     </div>
+
   </header>
 
   <main role="main">
