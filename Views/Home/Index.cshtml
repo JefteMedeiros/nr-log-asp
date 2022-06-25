@@ -5,7 +5,13 @@
 <div>
   <!-- Subheader -->
   <section class="bg-gray-100 text-center">
-    <h1 class="text-[1.6rem] lg:text-[2rem] text-gray-700">Bem vindo a <span class="italic font-bold">NR Log</span></h1>
+    <h1 class="text-[1.6rem] lg:text-[2rem] text-gray-700">Olá @ViewData["Login"], Bem vindo a <span class="italic font-bold">NR Log</span></h1>
+    @if(ViewData["Login"] != null)
+    {
+      <form method="post" asp-controller="Home">
+        <input type="submit" id="btnRemove" formaction="@Url.Action("DeleteSession")" class="text-2xl underline hover:cursor-pointer text-gray-700" value="Sair"/>
+      </form>
+    }
   </section>
 
   <!-- About -->
@@ -69,7 +75,7 @@
   </section>
 
   <!-- Reviews -->
-  <div class="flex flex-col bg-gray-100 items-center ">
+  <div class="flex flex-col bg-gray-100 items-center">
     <h1 class="text-[2.25rem] text-center pt-3 text-gray-700">Avaliações dos Clientes</h1>
     
     <div class="flex flex-col lg:flex-row py-6 px-8 justify-center ">

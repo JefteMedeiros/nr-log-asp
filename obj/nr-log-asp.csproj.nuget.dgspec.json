@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\drnol\\Desktop\\Projects\\Backend Projects\\.NET Core\\nr-log-asp\\nr-log-asp.csproj": {}
+    "C:\\Users\\Administrador\\Documents\\Repositórios GitHub\\nr-log\\nr-log-asp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\drnol\\Desktop\\Projects\\Backend Projects\\.NET Core\\nr-log-asp\\nr-log-asp.csproj": {
+    "C:\\Users\\Administrador\\Documents\\Repositórios GitHub\\nr-log\\nr-log-asp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\drnol\\Desktop\\Projects\\Backend Projects\\.NET Core\\nr-log-asp\\nr-log-asp.csproj",
+        "projectUniqueName": "C:\\Users\\Administrador\\Documents\\Repositórios GitHub\\nr-log\\nr-log-asp.csproj",
         "projectName": "nr-log-asp",
-        "projectPath": "C:\\Users\\drnol\\Desktop\\Projects\\Backend Projects\\.NET Core\\nr-log-asp\\nr-log-asp.csproj",
-        "packagesPath": "C:\\Users\\drnol\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\drnol\\Desktop\\Projects\\Backend Projects\\.NET Core\\nr-log-asp\\obj\\",
+        "projectPath": "C:\\Users\\Administrador\\Documents\\Repositórios GitHub\\nr-log\\nr-log-asp.csproj",
+        "packagesPath": "C:\\Users\\Administrador\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Administrador\\Documents\\Repositórios GitHub\\nr-log\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\drnol\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrador\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

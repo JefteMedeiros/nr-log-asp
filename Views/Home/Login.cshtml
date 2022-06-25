@@ -1,0 +1,22 @@
+﻿@model LoginModel
+
+@{
+  ViewData["Title"] = "Login";
+}
+
+<section class="flex w-full justify-center p-4 pb-2">
+  <form method="post" class="flex flex-col">
+    <div>
+      <label asp-for="UserName" class="block">Nome de usuário</label>
+      <input asp-for="UserName" class="border-2 px-2 py-1 rounded-md border-blue-500" type="text"/>
+      <span class="block text-red-500" asp-validation-for="UserName"></span>
+    </div>
+    <div>
+      <label asp-for="Password" class="block">Senha</label>
+      <input asp-for="Password" class="border-2 px-2 py-1 rounded-md border-blue-500" type="password"/>
+      <span class="block text-red-500" asp-validation-for="Password"></span>
+    </div>
+    <button class="text-black border-2 border-blue-500 hover:scale-105 transition-all p-2 rounded-md bg-gray-700 self-start mt-3" type="submit">
+      <h1 class="text-white">Fazer Login</h1>
+    </button>
+  </form>

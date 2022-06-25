@@ -10,8 +10,8 @@ using nr_log_asp.Data;
 namespace nr_log_asp.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220624201536_DatabaseOptimization")]
-    partial class DatabaseOptimization
+    [Migration("20220625042540_FirstMigration ")]
+    partial class FirstMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
