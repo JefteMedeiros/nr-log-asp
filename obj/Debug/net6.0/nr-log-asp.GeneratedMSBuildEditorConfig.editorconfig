@@ -8,45 +8,45 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = nr_log_asp
 build_property.RootNamespace = nr_log_asp
-build_property.ProjectDir = C:\Users\Administrador\Documents\Repositórios GitHub\nr-log\
+build_property.ProjectDir = c:\Users\Administrador\Documents\Repositórios GitHub\nr-log-asp\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Administrador\Documents\Repositórios GitHub\nr-log
+build_property.MSBuildProjectDirectory = c:\Users\Administrador\Documents\Repositórios GitHub\nr-log-asp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Administrador/Documents/Repositórios GitHub/nr-log/Views/Home/Index.cshtml]
+[c:/Users/Administrador/Documents/Repositórios GitHub/nr-log-asp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrador/Documents/Repositórios GitHub/nr-log/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Administrador/Documents/Repositórios GitHub/nr-log/Views/Home/Privacy.cshtml]
+[c:/Users/Administrador/Documents/Repositórios GitHub/nr-log-asp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrador/Documents/Repositórios GitHub/nr-log/Views/Register/Index.cshtml]
+[c:/Users/Administrador/Documents/Repositórios GitHub/nr-log-asp/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[c:/Users/Administrador/Documents/Repositórios GitHub/nr-log-asp/Views/Register/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrador/Documents/Repositórios GitHub/nr-log/Views/Shared/Error.cshtml]
+[c:/Users/Administrador/Documents/Repositórios GitHub/nr-log-asp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrador/Documents/Repositórios GitHub/nr-log/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/Administrador/Documents/Repositórios GitHub/nr-log-asp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrador/Documents/Repositórios GitHub/nr-log/Views/_ViewImports.cshtml]
+[c:/Users/Administrador/Documents/Repositórios GitHub/nr-log-asp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrador/Documents/Repositórios GitHub/nr-log/Views/_ViewStart.cshtml]
+[c:/Users/Administrador/Documents/Repositórios GitHub/nr-log-asp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Administrador/Documents/Repositórios GitHub/nr-log/Views/Shared/_Layout.cshtml]
+[c:/Users/Administrador/Documents/Repositórios GitHub/nr-log-asp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-p18z85u3xu

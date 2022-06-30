@@ -5,7 +5,15 @@
 <div>
   <!-- Subheader -->
   <section class="bg-gray-100 text-center">
-    <h1 class="text-[1.6rem] lg:text-[2rem] text-gray-700">Olá @ViewData["Login"], Bem vindo a <span class="italic font-bold">NR Log</span></h1>
+    @{
+        if(ViewData["Login"] != null) {
+        <h1 class="text-[1.6rem] lg:text-[2rem] text-gray-700">Olá <span>@ViewData["Login"]</span>, Bem vindo à <span class="italic font-bold">NR Log</span></h1>
+      }
+      else
+      {
+        <h1 class="text-[1.6rem] lg:text-[2rem] text-gray-700">Olá, Bem vindo à <span class="italic font-bold">NR Log</span></h1>        
+      }
+    }
     @if(ViewData["Login"] != null)
     {
       <form method="post" asp-controller="Home">
@@ -35,7 +43,7 @@
       
       <div class="flex px-8 py-6 justify-center items-center lg:items-stretch flex-col lg:flex-row">
         <div class="max-w-[600px] lg:max-w-[400px] rounded-tl-xl rounded-tr-xl p-6 lg:rounded-tr-none lg:rounded-bl-xl bg-blue-500">
-          <h1 class="text-2xl text-white">Boeing 737 400F</h1>
+          <h1 class="text-2xl text-white">Boeing 737-800F</h1>
           <h1 class="text-white">Para os voos cargueiros domésticos, operamos com uma frota de 15 Boeing 737-800F, capaz de carregar até aproximadamente 24 toneladas. São os responsáveis pelas entregas no mesmo dia</h1>
         </div>
         <div class="max-w-[600px] lg:max-w-[400px]">
@@ -97,7 +105,7 @@
       </div>
       <div>
         <div class="max-w-[600px] lg:max-w-[400px]">
-          <img class="max-w-[100%] lg:rounded-tr-xl rounded-bl-xl lg:rounded-bl-none rounded-br-xl" src="img/airplane3.jpg" alt="customer-img" />
+          <img class="max-w-[100%] lg:rounded-tr-xl rounded-bl-xl lg:rounded-bl-none rounded-br-xl" src="img/encomenda3.jpg" alt="customer-img" />
         </div>
       </div>
     </div>

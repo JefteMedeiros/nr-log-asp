@@ -26,10 +26,14 @@ namespace nr_log_asp.Controllers
 			{
 				_context.Add(newUser);
 				_context.SaveChanges();
+				ViewData["Failure"] = "";
+				ViewData["Success"] = "Usuário criado com sucesso!";
 				return View();
 			}
 			else
 			{
+				ViewData["Success"] = "";
+				ViewData["Failure"] = "Hove um erro ao criar o usuário!";
 				return View(newUser);
 			}
 		}

@@ -20,9 +20,6 @@
       <div class="flex items-center">
         <ul class="hidden sm:flex gap-4">
           <li class="hover:scale-105 transition-all">
-            <a asp-action="Index" asp-controller="Home" class="text-white text-lg">Início</a>
-          </li>
-          <li class="hover:scale-105 transition-all">
             <a asp-action="Index" asp-controller="" class="text-white text-lg">Enviar remessa</a>
           </li>
           <li class="hover:scale-105 transition-all">
@@ -32,18 +29,15 @@
             <a asp-action="Index" asp-controller="Register" class="text-white text-lg">Registre-se</a>
           </li>
           <li class="hover:scale-105 transition-all">
-            <a asp-action="Login" asp-controller="Home" class="text-white text-lg">Login</a>
+            <a asp-action="Index" asp-controller="Login" class="text-white text-lg">Login</a>
           </li>
         </ul>
       </div>
     </div>
 
     <!-- Header Mobile -->
-    <div class="sm:hidden border-t-2 border-gray-100 w-full">
-      <ul class="flex wrap gap-4 justify-center">
-        <li class="hover:scale-105 transition-all">
-            <a asp-action="Index" asp-controller="Home" class="text-white text-lg">Início</a>
-        </li>
+    <div class="sm:hidden border-t-[1px] border-gray-100 p-2 w-full">
+      <ul class="flex wrap gap-4 justify-between">
         <li class="hover:scale-105 transition-all">
           <a asp-action="Index" asp-controller="" class="text-white text-md">Enviar remessa</a>
         </li>
@@ -83,10 +77,9 @@
       </ul>
       <ul class="text-white flex flex-col gap-2 text-xl">
         <li class="pb-2 text-2xl">Nos siga</li>
-        <li><a class="text-white hover:underline" href="#">Twitter</a></li>
-        <li><a class="text-white hover:underline" href="#">Facebook</a></li>
-        <li><a class="text-white hover:underline" href="#">Instagram</a></li>
-        <li><a class="text-white hover:underline" href="#">LinkedIn</a></li>
+        <li><a class="text-white hover:underline" href="https://github.com/JefteMedeiros">GitHub</a></li>
+        <li><a class="text-white hover:underline" href="https://www.instagram.com/_jeffmedeiros.tsx/">Instagram</a></li>
+        <li><a class="text-white hover:underline" href="https://www.linkedin.com/in/jeftemedeiros/">LinkedIn</a></li>
       </ul>
       <form class="flex flex-col gap-3 text-white" action="">
         <h1 class="text-2xl">Newsletter</h1>

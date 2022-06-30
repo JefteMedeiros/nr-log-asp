@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Esse arquivo é usado pelo processo de publicação/pacote do seu projeto Web. É possível personalizar o comportamento deste processo
+ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA8KpCcSYjLkO7nVuAyg7SxwAAAAACAAAAAAAQZgAAAAEAACAAAABq8fKH6d4TlUhgxZlFTbplY3jb117h+0zQTy2WkoKpZgAAAAAOgAAAAAIAACAAAAAi8bKux++V6MloTM0YJrP3TWaPDyYW35Santx1i29yzoAAAADwbwx4n5N/lPzCx8kCdTRtAw4/31OLDBGjMgKrL1VwqUIuyLM0ih16W3FcYVcopFWJDEcYLLxUH/C2kXFs4O+HwLyYuCvb4MI36U2LrEScHnzq6jO0tcLqfmJODhxhB0g/YUzd2ABJmFb0eq2d25AMOcQvrUlF4yFZ5Iu1Ikyjl0AAAACTJRMXc4zvsOu0Cf1wfoUJDCBBP76egB06kafxHHtCh4/Ttc26E8LqZPnj+TNqbfFemgWdUlD/CQ1jdja5m9cW</EncryptedPassword>
+    <History>True|2022-06-28T17:34:14.4804538Z;True|2022-06-25T19:15:25.5095830-05:00;True|2022-06-25T13:57:54.6592303-05:00;True|2022-06-25T13:09:22.1443696-05:00;False|2022-06-25T13:08:13.2759257-05:00;False|2022-06-25T12:50:29.8331117-05:00;True|2022-06-25T12:39:30.4254092-05:00;False|2022-06-25T12:38:33.3648466-05:00;True|2022-06-25T12:17:00.5231477-05:00;True|2022-06-25T12:03:35.6847386-05:00;True|2022-06-25T12:01:26.8225095-05:00;False|2022-06-25T04:32:53.8025964-05:00;True|2022-06-25T04:22:48.1690595-05:00;False|2022-06-25T04:21:25.9192659-05:00;False|2022-06-25T04:06:35.8601068-05:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="Connection">
+      <Value>Server=tcp:nrlog.database.windows.net,1433%3bInitial Catalog=clients%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=Jefte9882413566%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
