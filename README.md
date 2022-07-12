@@ -4,3 +4,5 @@ NR Log, is a fictional website. It's objective, is to simulate a well managed lo
 
 The website has well designed responsive design techniques, built with Tailwind CSS and ASP.NET Core partial views. It also has register and login features (with session)
 alongside an Azure Websites deploy, with a MySQL database, built with ORM using Entity Framework Core. Hope you enjoy! 
+
+https://nr-log-asp.azurewebsites.net/
